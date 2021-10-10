@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .world {
+            display: flex;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+        }
+
+        .first {
+            border: 2px solid rgb(56, 216, 69);
+            height: 300px;
+            width: 335px;
+            background-color: rgb(358, 382, 404);
+            margin: 5px 3px;
+            padding: 5px 10px;
+            justify-content: center;
+        }
+
+        #touch-1 {
+            background-color: rgb(117, 181, 206);
+        }
+
+        #touch-2 {
+            background-color: rgb(204, 204, 107);
+        }
+
+        #touch-3 {
+            background-color: tomato;
+        }
+
+        #touch-4 {
+            background-color: rgb(106, 196, 106);
+        }
+
+        h1 {
+            border: 2px solid rgb(116, 192, 116);
+            background-color: honeydew;
+        }
+
+        h1:hover {
+            color: red;
+            background-color: rgb(136, 231, 140);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Here I am using flex box</h1>
+    <div class="world">
+        <div class="first" id="touch-1">Apple
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nisi obcaecati necessitatibus, odit,
+                quisquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corrupti reiciendis magnam
+                quasi sit placeat quam blanditiis numquam sint cupiditate consectetur perspiciatis in dolorem quis hic r
+                epudiandae, iusto, cum quas aliquam maxime consequuntur ab? sapiente officiis aliquid eligendi iste
+                facere sequi quia unde?</p>
+        </div>
+        <div class="first" id="touch-2">Orange
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, quidem commodi, praesentium
+                dignissimos Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia blanditiis cupiditate
+                ipsam obcaecati facilis adipisci consequuntur, culpa iure suscipit, laudantium officiis soluta excepturi
+                repellat eius. Quo rerum, quasi dolores aperiam animi modi tempore minus.explicabo facere eligendi
+                obcaecati magnam minima, reiciendis autem vitae sunt.</p>
+        </div>
+        <div class="first" id="touch-3">Mango
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis delectus, unde quae iusto quasi
+                perferendis Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta quibusdam tenetur aperiam
+                esse quaerat exercitationem placeat iusto animi incidunt voluptas molestias reprehenderit laborum
+                similique
+                earum hic voluptatem et quasi ad provident tempore, deserunt sint?eius impedit at, perspiciatis
+                exercitationem hic, amet beatae.</p>
+        </div>
+        <div class="first" id="touch-4">Banana
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis obcaecati, ipsam dolorum sunt eos dolore
+                asperiores Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero magnam praesentium
+                aspernatur quos obcaecati. Quidem accusamus harum iusto labore aspernatur ipsa inventore aliquid
+                doloribus sunt. Illum et
+                expedita odit ipsam, libero aperiam maiores amet itaque asperiores. numquam quo, at in repudiandae
+                eveniet repellat laborum?</p>
+        </div>
+    </div>
+</body>
+
+</html>
